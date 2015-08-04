@@ -365,7 +365,7 @@
               <MiscControls></MiscControls>
               <Define></Define>
               <Undefine></Undefine>
-              <IncludePath></IncludePath>
+              <IncludePath>.\Library Files</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -422,6 +422,11 @@
               <FileName>IRQ_SysTick.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\Library Files\IRQ_SysTick.c</FilePath>
+            </File>
+            <File>
+              <FileName>Delay.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Library Files\Delay.c</FilePath>
             </File>
           </Files>
         </Group>
