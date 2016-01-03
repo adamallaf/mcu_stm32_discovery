@@ -365,7 +365,7 @@
               <MiscControls></MiscControls>
               <Define></Define>
               <Undefine></Undefine>
-              <IncludePath>.\Library Files</IncludePath>
+              <IncludePath>.\Header Files</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -427,6 +427,21 @@
               <FileName>Delay.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\Library Files\Delay.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Header Files</GroupName>
+          <Files>
+            <File>
+              <FileName>User.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Header Files\User.h</FilePath>
+            </File>
+            <File>
+              <FileName>Delay.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Header Files\Delay.h</FilePath>
             </File>
           </Files>
         </Group>
