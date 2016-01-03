@@ -10,6 +10,7 @@
 #include "stm32f10x_rcc.h"              // Keil::Device:StdPeriph Drivers:RCC
 #include "stm32f10x_gpio.h"             // Keil::Device:StdPeriph Drivers:GPIO
 
+#include "User.h"
 #include "Delay.h"
 
 GPIO_InitTypeDef pin_8; 
@@ -18,7 +19,7 @@ GPIO_InitTypeDef pin_9;
 int main(){
 	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOC, ENABLE);
 
-	SysTick_Config(SystemCoreClock/1000);
+	SysTick_Config(SystemCoreClock/SysTickFreq);
 
 	pin_8.GPIO_Pin = GPIO_Pin_8;
 	pin_8.GPIO_Speed = GPIO_Speed_2MHz;
